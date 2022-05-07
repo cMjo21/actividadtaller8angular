@@ -1,0 +1,44 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Faster+One&family=Playball&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+
+<nav class="navbar navbar-light fixed-top colorbarra">
+  <div class="container-fluid">
+    <a class="navbar-brand letras" routerLink="inicio">SportCar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end colorbarra2" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title letras" id="offcanvasNavbarLabel">SportCar</h5>
+        <button type="button"  class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+          <li class="nav-item ">
+            <a class="nav-link active" aria-current="page" routerLink="inicio">Home</a>
+          </li>
+          <li class="nav-item">
+            <li class="nav-item dropdown colorbarra3">
+            <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             content 
+            </a>
+            <ul class="dropdown-menu colorbarra3" aria-labelledby="offcanvasNavbarDropdown">
+              <li><a class="dropdown-item" routerLink="porsche911">Porsche911</a></li>
+              <li><a class="dropdown-item" routerLink="NisanGTR">Nissan GTR</a></li>
+              <li>
+                <li><a class="dropdown-item" href="#" routerLink="MercedesAMG">Mercedes-AMG</a></li>
+                <li>
+                  <li><a class="dropdown-item" routerLink="ford">Ford</a></li>
+                  <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" routerLink="formulario">Formulario</a></li>
+            </ul>
+          </li>
+        </ul>
+        </div>
+    </div>
+  </div>
+</nav>
